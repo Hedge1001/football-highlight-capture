@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 .shell { min-height:100vh; background:#101514; color:#eef3ed; padding:24px 28px 18px; font-family:'Space Grotesk', sans-serif; }
-.topbar,.brand,.session,.matchMeta,.teams,.team,.captureLabel,.buffer,.sectionHeading,.clip,.device,footer { display:flex; align-items:center; }
+.topbar,.brand,.session,.matchMeta,.teams,.team,.captureLabel,.buffer,.sectionHeading,.clip,.device,.shell footer { display:flex; align-items:center; }
 .topbar { justify-content:space-between; max-width:1100px; margin:auto; }
 .brand { gap:12px; letter-spacing:.04em; }.brand strong { display:block; font-size:16px; font-weight:700; }.brand small { display:block; color:#81908a; font:10px 'DM Mono',monospace; letter-spacing:.13em; margin-top:2px; }
 .brandMark { width:34px; height:34px; border:1px solid #34413b; border-radius:9px; display:grid; place-items:center; }.brandMark span { width:12px; height:12px; border:3px solid #b8e546; border-radius:50%; box-shadow:0 0 0 3px #24301f; }
